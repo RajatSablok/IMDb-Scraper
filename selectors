@@ -1,0 +1,9 @@
+title = $('div[class="title_wrapper"] > h1').text().trim()
+
+rating = $('div[class="ratingValue"] > strong > span').text()
+
+runTime = $('div[class="subtext"] > time').text().trim()
+
+releaseDate = $('a[title="See more release dates"]').text().trim()
+
+summary = $('div[class="summary_text"]').text().trim()
